@@ -34,3 +34,4 @@ Python 3.10 or higher
 FFmpeg installed and available in the system path
 Optional: Tesseract for OCR, CUDA for GPU acceleration
 
+<img width="1312" height="410" alt="Bildschirmfoto 2025-10-08 um 13 37 39" src="https://github.com/user-attachments/assets/05c05591-1cca-4b57-8b87-2f3cf523af8d" />
