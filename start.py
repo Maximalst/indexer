@@ -3,6 +3,18 @@ import subprocess
 import venv
 import sys
 
+#update!!!
+
+def updater():
+    print("Updater not implemented yet.")
+    print("Please Update manually from GitHub")
+
+updater()
+
+
+
+
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ENV_DIR = os.path.join(BASE_DIR, "worker_env")
 WORKER_SCRIPT = os.path.join(BASE_DIR, "worker", "worker.py")
@@ -19,5 +31,12 @@ if not os.path.exists(WORKER_SCRIPT):
 if os.path.exists(REQ_FILE):
     subprocess.run([PYTHON_PATH, "-m", "pip", "install", "-r", REQ_FILE])
 
+
 result = subprocess.run([PYTHON_PATH, WORKER_SCRIPT])
+
+
 sys.exit(result.returncode)
+
+
+
+
